@@ -40,17 +40,45 @@
 .btn {
   /* flex: 1; */
   border: none;
-  margin: 0.25%;
+  margin: 0.15%;
+
   font-size: 34px;
+  /* font-weight: bold; */
+
   width: 25%;
+  cursor: pointer;
+  background-color: #e0e0e0;
+}
+
+.btn:hover {
+  background-color: #f5f5f5;
+}
+
+.btn:active {
+  background-color: #bdbdbd;
 }
 
 .btn.clear {
-  width: 50.5%;
+  width: 50.3%;
 }
 
-
-
 .btn.zero {
-  width: 76%;
+  width: 75.6%;
+}
+
+.btn.operator {
+  background-color: #ff7043;
+  color: #fafafa;
+}
+
+.btn.operator:hover {
+  background-color: #ffab91;
+}
+
+.btn.operator:active {
+  background-color: #f4511e;
+}
+
+.btn.operator.minus {
+  font-size: 47px;
 }
