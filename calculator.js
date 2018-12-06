@@ -45,7 +45,7 @@ function addOperator(symbol) {
 }
 
 function calcNums() {
-  if (numArray.length === 0) return;
+  if (operatorArray.length === 0 || numArray.length <= 1) return;
   numArray.push(parseInt(number));
 
   let result = numArray[0];
