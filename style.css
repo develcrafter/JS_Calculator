@@ -27,7 +27,7 @@
 }
 .display {
   color: #fafafa;
-  display: flex;
+  /* display: flex; */
   flex-direction: column;
   align-items: flex-end;
   justify-content: center;
@@ -35,6 +35,8 @@
 
 .display__text {
   font-size: 34px;
+  margin: 0 13px;
+  font-weight: normal;
 }
 
 .btn {
@@ -66,19 +68,19 @@
   width: 75.6%;
 }
 
-.btn.operator {
+.btn:last-child {
   background-color: #ff7043;
   color: #fafafa;
 }
 
-.btn.operator:hover {
+.btn:last-child:hover {
   background-color: #ffab91;
 }
 
-.btn.operator:active {
+.btn:last-child:active {
   background-color: #f4511e;
 }
 
-.btn.operator.minus {
+.btn:last-child.minus {
   font-size: 47px;
 }
