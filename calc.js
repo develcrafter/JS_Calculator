@@ -8,6 +8,7 @@ let result = "0";
 
 function clearAll() {
   number = "0";
+  result = 0;
   displayText.innerText = number;
   orderArray = [];
 }
@@ -26,6 +27,9 @@ function minusNums() {
 
 function divideNums() {
   result = numArray[0] / parseInt(number);
+  if (result === infinity) {
+    result = "infinity";
+  }
 }
 
 function calcNums() {
